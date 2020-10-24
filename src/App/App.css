@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-transition: .7s ease-in-out;
+  -o-transition: .7s ease-in-out;
+  transition: .7s ease-in-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*:before *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:focus, a:active {
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav, footer, header, aside {
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+html, body {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  margin: 0 auto;
+  outline: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#525ff0), color-stop(#4b58de), color-stop(#4452cd), color-stop(#3e4bbb), color-stop(#3745a9), color-stop(#303e98), color-stop(#293886), color-stop(#223175), color-stop(#1b2b63), color-stop(#152451), color-stop(#0e1e40), to(#07172e));
+  background-image: -webkit-linear-gradient(top, #525ff0, #4b58de, #4452cd, #3e4bbb, #3745a9, #303e98, #293886, #223175, #1b2b63, #152451, #0e1e40, #07172e);
+  background-image: -o-linear-gradient(top, #525ff0, #4b58de, #4452cd, #3e4bbb, #3745a9, #303e98, #293886, #223175, #1b2b63, #152451, #0e1e40, #07172e);
+  background-image: linear-gradient(to bottom, #525ff0, #4b58de, #4452cd, #3e4bbb, #3745a9, #303e98, #293886, #223175, #1b2b63, #152451, #0e1e40, #07172e);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input::-ms-clear {
+  display: none;
+}
+
+input::-webkit-input-placeholder {
+  color: grey;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+
+input::-moz-placeholder {
+  color: grey;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+
+input:-ms-input-placeholder {
+  color: grey;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+button:active, button:focus {
+  outline: none !important;
+}
+
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  outline: none !important;
+}
+
+video:active, video:focus {
+  outline: none !important;
+}
+
+ul li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }

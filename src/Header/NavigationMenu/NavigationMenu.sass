@@ -1,0 +1,50 @@
+.navigation
+	width: 100%
+	background-color: #222
+	display: flex
+	align-items: center
+	justify-content: center
+	height: 65px
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	z-index: 998
+	&__logo
+	&__list
+		display: flex
+		align-items: center
+		height: 100%
+		margin-left: 20px
+		@media screen and (max-width: 1200px)
+			display: none
+		&:last-child
+			margin-left: 100px
+			@media screen and (max-width: 1200px)
+				margin: 0
+		li
+			height: 100%
+			&:hover
+				a
+					border-radius: 0 70% 0 0
+					background-color: #fff
+					color: #000
+					svg
+						transform: rotate(-720deg)
+						fill: #000
+			a
+				width: 150px
+				color: #fff
+				height: 100%
+				font-size: 16px
+				font-weight: bold
+				position: relative
+				transition: all 0.8s
+				display: flex
+				align-items: center
+				justify-content: center
+				flex-direction: column
+				padding: 0 5px
+				svg
+					margin-top: 5px
+					fill: #fff

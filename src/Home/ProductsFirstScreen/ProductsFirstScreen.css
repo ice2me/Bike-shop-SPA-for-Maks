@@ -1,0 +1,38 @@
+.range {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 80px auto;
+}
+
+.range__title h2 {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 580px) {
+  .range__title h2 {
+    font-size: 40px;
+  }
+}
+
+.range__cards {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}

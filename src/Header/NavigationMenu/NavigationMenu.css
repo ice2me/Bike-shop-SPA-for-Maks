@@ -1,0 +1,104 @@
+.navigation {
+  width: 100%;
+  background-color: #222;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+}
+
+.navigation__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .navigation__list {
+    display: none;
+  }
+}
+
+.navigation__list:last-child {
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 980px) {
+  .navigation__list:last-child {
+    margin: 0;
+  }
+}
+
+.navigation__list li {
+  height: 100%;
+}
+
+.navigation__list li:hover a {
+  -webkit-border-radius: 0 70% 0 0;
+          border-radius: 0 70% 0 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.navigation__list li:hover a svg {
+  -webkit-transform: rotate(-720deg);
+      -ms-transform: rotate(-720deg);
+          transform: rotate(-720deg);
+  fill: #000;
+}
+
+.navigation__list li a {
+  width: 150px;
+  color: #fff;
+  height: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 5px;
+}
+
+.navigation__list li a svg {
+  margin-top: 5px;
+  fill: #fff;
+}
