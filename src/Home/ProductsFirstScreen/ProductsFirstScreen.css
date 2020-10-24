@@ -4,6 +4,7 @@
   height: -moz-max-content;
   height: max-content;
   margin: 80px auto;
+  overflow: hidden;
 }
 
 .range__title h2 {
