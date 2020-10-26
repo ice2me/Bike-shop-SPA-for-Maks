@@ -1,0 +1,23 @@
+.button__up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  .button__up {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.button__up-button {
+  background: transparent;
+  opacity: 1;
+}
+
+.button__up svg {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}

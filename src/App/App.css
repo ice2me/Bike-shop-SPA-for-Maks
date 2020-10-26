@@ -31,10 +31,11 @@ html, body {
   font-size: 14px;
   margin: 0 auto;
   outline: none;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#525ff0), color-stop(#4b58de), color-stop(#4452cd), color-stop(#3e4bbb), color-stop(#3745a9), color-stop(#303e98), color-stop(#293886), color-stop(#223175), color-stop(#1b2b63), color-stop(#152451), color-stop(#0e1e40), to(#07172e));
-  background-image: -webkit-linear-gradient(top, #525ff0, #4b58de, #4452cd, #3e4bbb, #3745a9, #303e98, #293886, #223175, #1b2b63, #152451, #0e1e40, #07172e);
-  background-image: -o-linear-gradient(top, #525ff0, #4b58de, #4452cd, #3e4bbb, #3745a9, #303e98, #293886, #223175, #1b2b63, #152451, #0e1e40, #07172e);
-  background-image: linear-gradient(to bottom, #525ff0, #4b58de, #4452cd, #3e4bbb, #3745a9, #303e98, #293886, #223175, #1b2b63, #152451, #0e1e40, #07172e);
+  background-image: url("./../Images/bgBody.jpg");
+  background-repeat: repeat;
+  -webkit-background-size: auto auto;
+          background-size: auto;
+  scroll-behavior: smooth;
 }
 
 input::-ms-clear {

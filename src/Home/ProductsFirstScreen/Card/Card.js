@@ -5,7 +5,6 @@ import CardProps from './CardProps/CardProps'
 
 export default class Card extends Component {
 	render() {
-		
 		return (
 			<>
 				{stateCard.map(item =>
@@ -100,5 +99,12 @@ const stateCard = [
 		'price' : '10000',
 		'image': '../../../Images/triger.jpg',
 		'key': '00011'
+	},
+	{
+		"number": "bike 010",
+		'title' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.',
+		'price' : '10000',
+		'image': '../../../Images/triger.jpg',
+		'key': '00012'
 	},
 ]

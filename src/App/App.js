@@ -2,11 +2,13 @@ import React from 'react'
 import './App.css'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
+import ButtonUp from '../ButtonUp/ButtonUp'
 
 function App() {
 	return (
 		<div className="wrapper">
-			<Header />
+			<Header/>
+			<ButtonUp/>
 			<Footer />
 		</div>
 	)

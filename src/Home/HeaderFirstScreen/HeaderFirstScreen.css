@@ -1,5 +1,6 @@
 .top__title {
   position: relative;
+  cursor: default;
 }
 
 .top__title-name {
@@ -25,6 +26,8 @@
   font-size: 150px;
   color: #fff;
   margin-bottom: 20px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #222;
 }
 
 @media screen and (max-width: 980px) {
@@ -44,6 +47,9 @@
 .top__title-name span {
   font-size: 30px;
   color: #fff;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: #222;
 }
 
 @media screen and (max-width: 980px) {
