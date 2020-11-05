@@ -1,0 +1,109 @@
+.accessories-card {
+  width: 300px;
+  height: 450px;
+  border: 1px solid black;
+  background-color: lime;
+  margin: 15px;
+  cursor: default;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0;
+}
+
+.accessories-card__number {
+  font-size: 18px;
+  padding: 5px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.accessories-card__img {
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.accessories-card__img img {
+  width: 100%;
+  height: auto;
+}
+
+.accessories-card__img img:hover {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.accessories-card__title {
+  font-size: 16px;
+  padding: 10px 5px;
+  color: #fff;
+}
+
+.accessories-card__price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 15px;
+  padding: 0 5px;
+  text-align: left;
+  width: 85%;
+}
+
+.accessories-card__price span {
+  font-size: 40px;
+  color: yellow;
+  font-weight: bold;
+}
+
+.accessories-card__price p {
+  font-weight: bold;
+  margin-left: 3px;
+  color: #fff;
+}
+
+.accessories-card__button {
+  width: 80%;
+  height: 60px;
+  background-color: #fff;
+  margin: 10px 0;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #222;
+}
+
+.accessories-card__button:focus, .accessories-card__button:hover {
+  background-color: #C6E1EA;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  font-size: 28px;
+  color: #222;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: none;
+}

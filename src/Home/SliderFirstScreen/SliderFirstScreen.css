@@ -5,51 +5,14 @@
 
 .slider-top__colection {
   width: 100%;
-  height: auto;
   position: relative;
   z-index: 2;
-  height: 950px;
-}
-
-@media screen and (max-width: 1400px) {
-  .slider-top__colection {
-    height: 850px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .slider-top__colection {
-    height: 750px;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .slider-top__colection {
-    height: 650px;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .slider-top__colection {
-    height: 550px;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .slider-top__colection {
-    height: 350px;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .slider-top__colection {
-    height: 220px;
-  }
+  height: 100vh;
 }
 
 .slider-img {
   width: 100%;
-  height: auto;
+  height: inherit;
   opacity: 0;
   position: absolute;
 }

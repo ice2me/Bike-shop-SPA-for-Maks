@@ -2,6 +2,8 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
+  display: none;
+  z-index: 30;
 }
 
 @media screen and (max-width: 980px) {
@@ -9,6 +11,12 @@
     bottom: 0;
     right: 0;
   }
+}
+
+.button__up:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .button__up-button {

@@ -1,1 +1,8 @@
-/* No CSS */
+.spares__page {
+  padding: 130px 20px;
+}
+
+.spares__page h1 {
+  font-size: 60px;
+  text-align: center;
+}
